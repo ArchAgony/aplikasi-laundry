@@ -14,8 +14,8 @@ use App\Http\Controllers\LaundryController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/beranda', [LaundryController::class, 'index']);

@@ -135,33 +135,33 @@
     <div class="container pt-5">
         <div class="border rounded border-primary-subtle">
             <div class="position-relative">
-                <div class="border position-absolute top-0 start-50 translate-middle py-2 px-2 rounded-pill bg-primary-subtle"
-                    style="width: 1000px">
-                    <div class="row">
+                <div class="border position-absolute top-0 start-50 translate-middle py-2 px-2 rounded-pill bg-primary-subtle text-center"
+                    style="width: 800px">
+                    <div class="row gap-1">
                         <div class="col">
-                            <div class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill text-center fw-semibold">
-                                Cuci & lipat</div>
+                            <button class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill active">
+                                Cuci & lipat</button>
                         </div>
                         <div class="col">
-                            <div class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill text-center"
+                            <button class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill"
                                 onclick="pengembangan()">Cuci kering
-                            </div>
+                            </button>
                         </div>
                         <div class="col">
-                            <div class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill text-center"
+                            <button class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill" style="width: 175px"
                                 onclick="pengembangan()">Pengambilan
                                 pakaian
-                            </div>
+                            </button>
                         </div>
                         <div class="col">
-                            <div class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill text-center"
+                            <button class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill" style="width: 150px"
                                 onclick="pengembangan()">Layanan setrika
-                            </div>
+                            </button>
                         </div>
                         <div class="col">
-                            <div class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill text-center"
+                            <button class="border px-1 py-1 fs-6 bg-light-subtle rounded-pill" style="width: 150px"
                                 onclick="pengembangan()">Penghilang noda
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
